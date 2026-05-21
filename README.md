@@ -4,21 +4,6 @@
 
 ## O projekte
 Case study pre pozíciu Data Automation Specialist.
-Riešenie pokrýva dátové modelovanie, ETL pipeline,
-geo enrichment, analytiku a pricing stratégiu.
-
-## Štruktúra repozitára
-gymbeam-case-study/
-├── 01_task/
-│   ├── er_diagram.png     # ER diagram — OLTP + Star Schema
-│   ├── schema.sql         # SQL schéma tabuliek
-│   └── DECISIONS.md       # Zdôvodnenie architektonických rozhodnutí
-├── 02_task/
-│   ├── python/            # Geo enrichment + pricing engine
-│   └── sql/               # Analytické transformácie
-├── 03_task/
-│   └── post_mortem.md     # SQL performance analýza
-└── answers.md             # Slovné odpovede na otázky
 
 ## Kľúčové rozhodnutia
 - **Geo enrichment:** pgeocode (primárne) + Nominatim API (fallback)
